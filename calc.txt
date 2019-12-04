@@ -1,0 +1,51 @@
+#visor{
+	height:50px;
+	width:380px;
+	background-color: #bdffb4;
+   text-align: right;
+   margin: 40px 0px 0px 0px;
+   font-size:30 px;
+}
+
+.visor{
+   width: 380px;
+   height:120px;
+   margin-left:auto;
+   margin-right:auto;
+ 
+   
+}
+.calc{
+   width: 400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.calc_blocos{
+
+   float: left;
+}
+form fieldset{
+	margin: 10px auto 10px auto;
+	font-size:30px;
+   width: 500px;
+   border: solid black 1px;
+}
+form input.num {
+display: block;
+   width: 80px;
+   height:80px;
+   font-size:20px;
+}
+form input.oper{ 
+	display: block;
+   width: 80px;
+   height:80px;
+   font-size:20px;
+   background-color: #b2b2b2;
+}
+form input{
+   width:100%;
+   border: solid #ccc 1px;
+   margin: 10px 10px 20px 10px;
+}
+

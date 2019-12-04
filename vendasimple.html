@@ -1,0 +1,78 @@
+﻿<html>
+	<meta charset="utf-8">
+<head>
+<title>Exercício Prático</title>
+
+<body>
+
+<form action="venda.php" method="post">
+
+<!-- marcacao produto e quantidade -->
+
+<P ALIGN=CENTER>--- CONTROLE DE VENDAS ---</P>
+
+
+<TABLE BORDER=0 CELLSPACING=5 CELLPADDING=3 COLS=3 ALIGN=CENTER WIDTH=“100%" BGCOLOR="#FFFF99">
+
+<TR><TD> Produto    </TD><TD> Preço ( R$ )    </TD><TD> Qtde.    </TD></TR>
+
+<TR><TD>    </TD><TD>  </TD><TD>   </TD></TR
+
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO" VALUE="op1">Camiseta Regata</TD><TD>19,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE1" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO1" VALUE="op2">Camisa Social</TD><TD>59,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE2" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO2" VALUE="op3">Blusa</TD><TD>119,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE3" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO3" VALUE="op4">Pullover</TD><TD>39,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE4" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO4" VALUE="op5">Sapato</TD><TD>99,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE5" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO5" VALUE="op6">Calca</TD><TD>38,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE6" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO6" VALUE="op7">Meias</TD><TD>9,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE7" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO7" VALUE="op8">Luvas</TD><TD>24,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE8" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO8" VALUE="op9">Jaqueta</TD><TD>329,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE9" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO9" VALUE="op10">Bermuda</TD><TD>69,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE10" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO10" VALUE="op11">Chinelo</TD><TD>14,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE11" size=1 maxlength=4 ></TD></TR>
+<TR><TD><INPUT TYPE="checkbox" NAME="PRODUTO11" VALUE="op12">Bone</TD><TD>6,90</TD>
+<TD><INPUT TYPE="TEXT" NAME="QTDE12" size=1 maxlength=4 ></TD></TR>
+
+</TABLE>
+<HR>
+<!-- forma de pagamento -->
+
+<TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2 COLS=2 ALIGN=CENTER WIDTH=“100%" BGCOLOR="#FFFF99">
+
+<TR><TD>< Forma de Pagamento ></TD></TR>
+<TR><TD>    </TD><TD>  </TD><TD>   </TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="pagamento" value="A vista" checked>a vista</TD>
+<TD><INPUT TYPE="radio" NAME="pagamento" value="A prazo" checked>a prazo</TD></TR>
+</TABLE>
+
+<!-- qtde. de parcelas -->
+
+<HR>
+<P ALIGN=CENTER>Qtde. de Parcelas :
+<select name="Parcelas">
+<option> 2
+<option> 3
+<option> 4
+<option> 5
+</select>
+
+<BR>
+<br>
+
+
+<INPUT TYPE="SUBMIT" VALUE="Calcular Venda">
+
+</form>
+
+</body>
+</html>

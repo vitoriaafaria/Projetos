@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="calculadora.css" />
+	<script type = "text/javascript src= js/calculadora.js"> </script>
+</head>
+<body>
+
+<form name="calcform" method="post" action="">
+
+<fieldset>
+	<legend>Calculadora</legend>
+	<div class="visor">
+		<input type="text" name="visor" id="visor" />
+		</div>
+		<div class ="calc">
+		
+			<div class="calc_blocos">
+			
+			<!-- 1º valor --><input type="button" name="num7" class="num" value="7" id="num7" onclick="calcnum(7)" />
+			<!-- 2º valor --><input type="button" name="num4" class="num" value="4" id="num4" onclick="calcnum(4)" />
+			<!-- 3º valor --><input type="button" name="num1" class="num" value="1" id="num1" onclick="calcnum(1)" />
+			
+			<!-- 4º Limpar --><input type="button" name="limpar" class="num" value="AC" id="limpar" onclick="calcLimpar ()" />
+			</div>
+			
+			<div class= "calc_blocos"> 
+			
+			<!-- 5º valor --><input type="button" name="num8" class="num" value="8" id="num8" onclick="calcnum(8)" />
+			<!-- 6º valor --><input type="button" name="num5" class="num" value="5" id="num5" onclick="calcnum(5)" />
+			<!-- 7º valor --><input type="button" name="num2" class="num" value="2" id="num2" onclick="calcnum(2)" />
+			<!-- 8º valor --><input type="button" name="num0" class="num" value="0" id="num0" onclick="calcnum(0)" />
+			
+			</div>
+			
+			<div class= "calc_blocos"> 
+			
+			<!-- 9º valor --><input type="button" name="num9" class="num" value="9" id="num9" onclick="calcnum(9)" />
+			<!-- 10º valor --><input type="button" name="num6" class="num" value="6" id="num6" onclick="calcnum(6)" />
+			<!-- 11º valor --><input type="button" name="num3" class="num" value="3" id="num3" onclick="calcnum(3)" />
+			<!-- 12º valor --><input type="button" name="igual" class="num" value="=" id="=" onclick="calParse('Resultado')" />
+			</div>
+			
+			
+			<div class= "calc_blocos"> 
+			
+			<!-- 13º valor --><input type="button" name="somar" class="oper" value="+" id="somar" onclick="calcParse('somar')" />
+			<!-- 14º valor --><input type="button" name="subtrair" class="oper" value="-" id="subtrair" onclick="calcParse('subtrair')" />
+			<!-- 15º valor --><input type="button" name="multiplicar" class="oper" value="*" id="multiplicar" onclick="calcParse('multiplicar')" />
+			<!-- 16º valor --><input type="button" name="dividir" class="oper" value="/" id="dividir" onclick="calcParse('dividir')" />
+			</div>
+			</div>
+			
+			</fieldset>
+			
+		
+ </body>
+</html>
